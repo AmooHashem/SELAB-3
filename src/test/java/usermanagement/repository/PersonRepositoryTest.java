@@ -1,4 +1,6 @@
 package usermanagement.repository;
 
-public class PersonRepositoryTest {}
+public class PersonRepositoryTest {
+
+}
 

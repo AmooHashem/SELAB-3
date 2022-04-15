@@ -4,28 +4,24 @@ import org.junit.Test;
 import usermanagement.entity.Person;
 
 import static org.aspectj.runtime.internal.Conversions.intValue;
-
-
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
-public class TransformServiceTest {
+
+public class UserTest {
 
     private final TransformService transformer = new TransformService();
     private static final Integer ID = 97102622;
 
     @Test
-    public void test_TransformService_toUserDomain_function() {
+    public void test_User_equals_function() {
         Person person = new Person();
         person.setPersonId(ID);
 
-        assertEquals(transformer.toUserDomain(person).getUserId(), ID);
-    }
-
-    @Test
-    public void test_TransformService_toUserEntity_function() {
         User user = new User();
         user.setUserId(ID);
 
-        assertEquals(transformer.toUserEntity(user).getPersonId(), intValue(ID));
+        assertTrue(transformer.toUserDomain(person).equals(user));
     }
 }
+

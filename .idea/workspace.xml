@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d52cb5-d29d-4ca0-a2a8-43d95fe49386" name="Default Changelist" comment="" />
+    <list default="true" id="39d52cb5-d29d-4ca0-a2a8-43d95fe49386" name="Default Changelist" comment="complete proj">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/usermanagement/service/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/usermanagement/service/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usermanagement/service/TransformService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usermanagement/service/TransformService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/usermanagement/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/usermanagement/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usermanagement/entity/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usermanagement/entity/PersonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usermanagement/repository/PersonRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usermanagement/repository/PersonRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usermanagement/service/MockUserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usermanagement/service/MockUserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/usermanagement/service/TransformServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/usermanagement/service/TransformServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usermanagement/entity/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usermanagement/entity/PersonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usermanagement/service/MockUserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usermanagement/service/MockUserServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/usermanagement/service/TransformServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/usermanagement/service/TransformServiceTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +49,7 @@
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../tmp" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../tmp2" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -45,6 +59,9 @@
       <find>MARY</find>
       <find>mary</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -71,6 +88,7 @@
     <option name="height" value="730" />
   </component>
   <component name="ProjectId" id="27qMjJ2SA9wYyUy7uOQmYku2tCC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -144,15 +162,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "/home/amoohashem/Desktop/tmp",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/amoohashem/Desktop/tmp2",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MockUserServiceImplTest">
-    <configuration name="MockUserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="usermanagement.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.usermanagement in personservice">
+    <configuration name="TransformServiceTest.test_TransformService_toUserDomain_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personservice" />
       <extension name="coverage">
         <pattern>
@@ -161,54 +185,57 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="usermanagement.service" />
-      <option name="MAIN_CLASS_NAME" value="usermanagement.service.MockUserServiceImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MockUserServiceImplTest.findById_found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="personservice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="usermanagement.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="usermanagement.service" />
-      <option name="MAIN_CLASS_NAME" value="usermanagement.service.MockUserServiceImplTest" />
-      <option name="METHOD_NAME" value="findById_found" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.TransformServiceTest" />
+      <option name="METHOD_NAME" value="test_TransformService_toUserDomain_function" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransformServiceTest.test_TransformService_toUserEntity_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usermanagement.repository.*" />
+          <option name="PATTERN" value="usermanagement.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="usermanagement.repository" />
-      <option name="MAIN_CLASS_NAME" value="usermanagement.repository.PersonRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="usermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.TransformServiceTest" />
+      <option name="METHOD_NAME" value="test_TransformService_toUserEntity_function" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TransformServiceTest.test_person_default_constructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="personservice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="usermanagement.entity.*" />
+          <option name="PATTERN" value="usermanagement.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="usermanagement.entity" />
-      <option name="MAIN_CLASS_NAME" value="usermanagement.entity.PersonTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="usermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.TransformServiceTest" />
+      <option name="METHOD_NAME" value="test_person_default_constructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserTest.test_User_equals_function" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.UserTest" />
+      <option name="METHOD_NAME" value="test_User_equals_function" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -236,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MockUserServiceImplTest" />
-        <item itemvalue="JUnit.MockUserServiceImplTest.findById_found" />
         <item itemvalue="JUnit.usermanagement in personservice" />
-        <item itemvalue="JUnit.PersonTest" />
-        <item itemvalue="JUnit.PersonRepositoryTest" />
+        <item itemvalue="JUnit.UserTest.test_User_equals_function" />
+        <item itemvalue="JUnit.TransformServiceTest.test_TransformService_toUserEntity_function" />
+        <item itemvalue="JUnit.TransformServiceTest.test_TransformService_toUserDomain_function" />
+        <item itemvalue="JUnit.TransformServiceTest.test_person_default_constructor" />
       </list>
     </recent_temporary>
   </component>
@@ -341,6 +368,21 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete proj" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete proj" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -352,7 +394,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/junit_demo$usermanagement_in_personservice.ic" NAME="usermanagement in personservice Coverage Results" MODIFIED="1650045387649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/junit_demo$usermanagement_in_personservice.ic" NAME="usermanagement in personservice Coverage Results" MODIFIED="1650056784567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>usermanagement.*</FILTER>
     </SUITE>
   </component>

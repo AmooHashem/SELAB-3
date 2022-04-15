@@ -27,75 +27,84 @@ import usermanagement.repository.PersonRepository;
 @RunWith(MockitoJUnitRunner.class)
 public class MockUserServiceImplTest {
 
-	private static final String ALI = "Ali";
-	private static final String TEST_COMPANY = "Test";
-	private final Person person = new Person();
-	@Mock
-	private PersonRepository personDao;
+    private static final String ALI = "Ali";
+    private static final String TEST_COMPANY = "Test";
+    private final Person person = new Person();
+    private final User user = new User();
+    @Mock
+    private PersonRepository personDao;
 
-	@InjectMocks
-	private UserServiceImpl testClass;
+    @InjectMocks
+    private UserServiceImpl testClass;
 
-	@Mock
-	private TransformService transformer;
+    @Mock
+    private TransformService transformer;
 
-	private final User user = new User();
 
-	@Test
-	public void findById_found() {
-		doReturn(person).when(personDao).findOne(1);
-		doReturn(user).when(transformer).toUserDomain(person);
+    @Test
+    public void findById_found() {
+        doReturn(person).when(personDao).findOne(1);
+        doReturn(user).when(transformer).toUserDomain(person);
 
-		User user = testClass.findById(1);
-		assertEquals(ALI, user.getFirstName());
-	}
+        User user = testClass.findById(1);
+        assertEquals(ALI, user.getFirstName());
+    }
 
-	@Test 
-	public void findById_not_found_default_user() {
-		doReturn(null).when(personDao).findOne( Matchers.any(Integer.class));
-		 
-		doReturn(user).when(transformer).toUserDomain(Matchers.any(Person.class));
-		
-		User default_user = testClass.findById(1);
-		assertNotNull(default_user);
-		 
-	}
+    @Test
+    public void findByIdOld_not_found() {
+        doReturn(person).when(personDao).findOne(1);
+        doReturn(user).when(transformer).toUserDomain(person);
 
-	@Test
-	public void searchByCompanyName_found() {
-		List<Person> persons = new ArrayList<>();
-		persons.add(person);
-		doReturn(persons).when(personDao).findByCompany(TEST_COMPANY);
-		doReturn(user).when(transformer).toUserDomain(person);
+        try {
+            testClass.findById_old(2);
+        } catch (Exception e) {
+            assertEquals("not found user", e.getMessage());
+        }
+    }
 
-		List<User> users = testClass.searchByCompanyName(TEST_COMPANY);
-		assertEquals(1, users.size());
-		assertEquals(ALI, users.get(0).getFirstName());
-	}
+    @Test
+    public void findById_not_found_default_user() {
+        doReturn(null).when(personDao).findOne(Matchers.any(Integer.class));
+        doReturn(user).when(transformer).toUserDomain(Matchers.any(Person.class));
 
-	@Test
-	public void searchByCompanyName_not_found() {
-		List<Person> persons = new ArrayList<>();
-		doReturn(persons).when(personDao).findByCompany(TEST_COMPANY);
-		doReturn(user).when(transformer).toUserDomain(person);
+        User default_user = testClass.findById(1);
+        assertNotNull(default_user);
+    }
 
-		List<User> users = testClass.searchByCompanyName(TEST_COMPANY);
-		assertTrue(users.isEmpty());
-	}
+    @Test
+    public void searchByCompanyName_found() {
+        List<Person> persons = new ArrayList<>();
+        persons.add(person);
+        doReturn(persons).when(personDao).findByCompany(TEST_COMPANY);
+        doReturn(user).when(transformer).toUserDomain(person);
 
-	@Test
-	public void deleteById_is_done_by_dao_delete() {
-		doNothing().when(personDao).delete(Matchers.any(Integer.class));
+        List<User> users = testClass.searchByCompanyName(TEST_COMPANY);
+        assertEquals(1, users.size());
+        assertEquals(ALI, users.get(0).getFirstName());
+    }
 
-		testClass.deleteById(1);
+    @Test
+    public void searchByCompanyName_not_found() {
+        List<Person> persons = new ArrayList<>();
+        doReturn(persons).when(personDao).findByCompany(TEST_COMPANY);
+        doReturn(user).when(transformer).toUserDomain(person);
 
-		verify(personDao, times(1)).delete(1);
-		;
-	}
+        List<User> users = testClass.searchByCompanyName(TEST_COMPANY);
+        assertTrue(users.isEmpty());
+    }
 
-	@Before
-	public void setup() {
-		person.setfName(ALI);
-		user.setFirstName(ALI);
-	}
+    @Test
+    public void deleteById_is_done_by_dao_delete() {
+        doNothing().when(personDao).delete(Matchers.any(Integer.class));
+
+        testClass.deleteById(1);
+
+        verify(personDao, times(1)).delete(1);
+    }
+
+    @Before
+    public void setup() {
+        person.setfName(ALI);
+        user.setFirstName(ALI);
+    }
 }
