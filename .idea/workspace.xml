@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="39d52cb5-d29d-4ca0-a2a8-43d95fe49386" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/junit_demo$TransformServiceTest.ic" NAME="TransformServiceTest Coverage Results" MODIFIED="1620737464362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_demo$MockUserServiceImplTest.ic" NAME="MockUserServiceImplTest Coverage Results" MODIFIED="1620758455839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_demo$usermanagement_in_personservice.ic" NAME="usermanagement in personservice Coverage Results" MODIFIED="1620758564231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_demo$UserServiceImplTest.ic" NAME="UserServiceImplTest Coverage Results" MODIFIED="1620737483788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_demo$PersonTest.ic" NAME="PersonTest Coverage Results" MODIFIED="1620758466976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.entity.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_demo$PersonRepositoryTest.ic" NAME="PersonRepositoryTest Coverage Results" MODIFIED="1620743412481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.repository.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="21" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../tmp" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Zheng</find>
+      <find>3873418545077760440L</find>
+      <find>serialVersionUID</find>
+      <find>MARY</find>
+      <find>mary</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/usermanagement/service/TransformService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usermanagement/service/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/usermanagement/exception/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usermanagement/entity/PersonTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usermanagement/service/TransformServiceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usermanagement/repository/PersonRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/usermanagement/service/MockUserServiceImplTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="5" />
+    <option name="width" value="850" />
+    <option name="height" value="730" />
+  </component>
+  <component name="ProjectId" id="27qMjJ2SA9wYyUy7uOQmYku2tCC" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="junit-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeCoverageProject - Copy (3) - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="usermanagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/home/amoohashem/Desktop/tmp",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.MockUserServiceImplTest">
+    <configuration name="MockUserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.MockUserServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MockUserServiceImplTest.findById_found" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement.service" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.service.MockUserServiceImplTest" />
+      <option name="METHOD_NAME" value="findById_found" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement.repository" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.repository.PersonRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement.entity" />
+      <option name="MAIN_CLASS_NAME" value="usermanagement.entity.PersonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="usermanagement in personservice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="usermanagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="usermanagement" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="personservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="jcg.zheng.demo.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MockUserServiceImplTest" />
+        <item itemvalue="JUnit.MockUserServiceImplTest.findById_found" />
+        <item itemvalue="JUnit.usermanagement in personservice" />
+        <item itemvalue="JUnit.PersonTest" />
+        <item itemvalue="JUnit.PersonRepositoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39d52cb5-d29d-4ca0-a2a8-43d95fe49386" name="Default Changelist" comment="" />
+      <created>1620736100869</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620736100869</updated>
+      <workItem from="1620736103265" duration="5280000" />
+      <workItem from="1620757969018" duration="86000" />
+      <workItem from="1620758061273" duration="113000" />
+      <workItem from="1620758181122" duration="37000" />
+      <workItem from="1620758221427" duration="28000" />
+      <workItem from="1620758251798" duration="58000" />
+      <workItem from="1620758315479" duration="77000" />
+      <workItem from="1620758396835" duration="138000" />
+      <workItem from="1620758556040" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 19h 37m 03s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 04m 44s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 06m 30s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 07m 10s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 07m 43s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 08m 45s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 10m 13s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MockUserServiceImplTest - 2021.05.11 at 23h 10m 57s.xml">
+      <configuration name="MockUserServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonTest - 2021.05.11 at 23h 11m 08s.xml">
+      <configuration name="PersonTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="usermanagement_in_personservice - 2021.05.11 at 23h 12m 46s.xml">
+      <configuration name="usermanagement in personservice" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5837000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3442953" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.17651007" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.reflect.InaccessibleObjectException" package="java.lang.reflect" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_demo$usermanagement_in_personservice.ic" NAME="usermanagement in personservice Coverage Results" MODIFIED="1650045387649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>usermanagement.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usermanagement/service/UserServiceImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/junit.ucls" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/entity/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/service/TransformService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/exception/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/repository/PersonRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/service/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+            <element signature="e#1071#1072#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2926">
+          <caret line="156" column="19" selection-start-line="156" selection-start-column="19" selection-end-line="156" selection-end-column="19" />
+          <folding>
+            <element signature="e#5877#5878#0" expanded="true" />
+            <element signature="e#5913#5914#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/usermanagement/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usermanagement/entity/PersonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usermanagement/repository/PersonRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usermanagement/service/TransformServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/usermanagement/service/MockUserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
